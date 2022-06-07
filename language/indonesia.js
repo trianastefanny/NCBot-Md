@@ -5,7 +5,7 @@ exports.wait = () => {
     return `⏳ Mohon tunggu sebentar~`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ Done by NC Bot 🤖`
 }
 
 exports.err = () => {
@@ -54,7 +54,7 @@ exports.nhFalse = () => {
 }
 
 exports.listBlock = (blockNumber) => {
-    return `*── 「 HALL OF SHAME 」 ──*
+    return `*── 「 DAFTAR BLOKIR 」 ──*
     
 Total diblokir: *${blockNumber.length}* user\n`
 }
@@ -94,7 +94,7 @@ lapor owner agar segera di perbaiki 🙏
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu NC Bot-Md :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -783,13 +783,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╭─❒ 「 TqTo 」 
 ├ My God
 ├ My Parents
-├ Fatih A.
-├ Ferdi
 ├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
-├ ZeeoneOfc
+├ NC Tech
 ├ Penyedia Module
 ╰❒ And All Support
     `
@@ -809,13 +804,13 @@ Sanksi: *❎ SOFT BLOCK*
 Sanksi: *PERMANENT BLOCK*
 
 🗯️ Bot tidak atau lambat merespon ?
-➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan. Tetap patuhi rules‼️
+➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa alasan. Tetap patuhi rules‼️
 
 🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini masih private dan tidak pernah diperjual belikan ,bijaklah dalam mengetahui penipu.
+➡️ Script ini masih private dan tidak pernah diperjual belikan.
 
 🗯️ Boleh saya menambah ke grup?
-➡️ Untuk sementara bot dalam status free to add.
+➡️ Untuk memasukkan bot kedalam grup bisa sewa bot
 
 🗯️ Prefixnya apa ya?
 ➡️ Bot ini menggunakan multi prefix. Berarti anda bisa menggunakan prefix #, . , Dan prefix wajar lainnya.
@@ -826,10 +821,10 @@ Sanksi: *PERMANENT BLOCK*
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Segala kebijakan dan ketentuan NC Bot 🤖 di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
-😖🙏
+Terima Kasih! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan NC Bot 🤖
+😁🙏
 `
 }
 exports.welcome = () =>{
@@ -842,14 +837,14 @@ exports.welcome = () =>{
 ╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
+	return`Yah kok out >.<
 Goodbye`
 }
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+Recode : https://github.com/ncbotwa
 `
 }
 exports.tos = (ownernomer) => {
